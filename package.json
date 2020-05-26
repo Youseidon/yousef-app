@@ -4,8 +4,9 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "nodemon src/app -e js,hbs",
-        "debug": "node --inspect-brk src/app"
+        "start": "node src/app",
+        "debug": "node --inspect-brk src/app",
+        "dev": "nodemon src/app -e js,hbs"
     },
     "repository": {
         "type": "git",
