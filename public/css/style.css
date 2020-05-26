@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+    padding: 20px 45px;
+    border: 1px solid whitesmoke;
+    background-color: lightgray;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+.article-form {
+    margin: 0 auto;
+    width: 70%;
+    min-height: 400px;
+    border: 1px solid whitesmoke;
+    margin-top: 90px;
+}
+
+footer {
+    border-top: 1px solid gray;
+}
+
+footer div {
+    min-height: 50px;
+    margin: 0 auto;
+    display: block;
+}
+
+input {
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 8px;
+}

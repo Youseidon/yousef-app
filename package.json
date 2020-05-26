@@ -1,0 +1,29 @@
+{
+    "name": "yousef-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon src/app -e js,hbs",
+        "debug": "node --inspect-brk src/app"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/P1noQ2/yousef-app.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/P1noQ2/yousef-app/issues"
+    },
+    "homepage": "https://github.com/P1noQ2/yousef-app#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "hbs": "^4.1.1",
+        "validator": "^13.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
+}
